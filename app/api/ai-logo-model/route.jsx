@@ -31,7 +31,7 @@ export async function POST(req) {
                         "Content-Type": "application/json",
                     },
                     responseType:"arraybuffer",
-                    timeout: 600000,
+                    
                 }
             )
         const buffer=Buffer.from(response.data,"binary");
